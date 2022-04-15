@@ -30,7 +30,7 @@
 	}
 		section{
 			margin: 100px auto;
-			width: 90%;
+			width: 70%;
 			height: 400px;
 			display: flex;
 			justify-content: space-around;
@@ -102,41 +102,12 @@
 			display: block;
 
 		}
-		@keyframes first{
-			to{
-				width: 30px;
-			    height: 20px;
-			    left: 1290px;
-			    top: -70px;
-			}
-		}
-		@keyframes second{
-			to{
-				width: 30px;
-			    height: 20px;
-			    left: 948px;
-			    top: -70px;
-			}
-		}
-		@keyframes third{
-			to{
-				width: 30px;
-			    height: 20px;
-			    left: 606px;
-			    top: -70px;
-			}
-		}
-		@keyframes four{
-			to{
-				width: 30px;
-			    height: 20px;
-			    left: 265px;
-			    top: -70px;
-			}
-		}
+        section div:nth-child(5)>span.active{
+			animation: four 0.5s ease-in;
+			z-index: 2;
+			display: block;
 
-
-		
+		}				
 		.select{
 			width: 60%;
 			height: 580px;
@@ -183,3 +154,7 @@
 		.select div span{
 			display: none;
 		}
+h2{
+ text-align: center;
+ color:cadetblue
+}
