@@ -6,8 +6,6 @@ var noti = document.querySelector('h1');
 			var add = Number(noti.getAttribute('data-count') || 0);
 			noti.setAttribute('data-count', add +1);
 			noti.classList.add('zero')
-
-			// image --animation to cart ---//
 			var image = e.target.parentNode.querySelector('img');
 			var span = e.target.parentNode.querySelector('span');
 			var s_image = image.cloneNode(false);
