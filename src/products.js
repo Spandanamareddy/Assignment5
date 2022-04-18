@@ -17,9 +17,6 @@ var noti = document.querySelector('h1');
 				span.classList.remove("active");
 				span.removeChild(s_image);
 			}, 500); 
-			
-
-			// copy and paste //
 			var parent = e.target.parentNode;
 			var clone = parent.cloneNode(true);
 			select.appendChild(clone);
